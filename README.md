@@ -17,7 +17,7 @@
 
 ## 精选项目
 
-### [ai-coding-work-flow](https://github.com/BigHuang8/ai-coding-work-flow)
+### [ai-coding-work-flow](https://github.com/huangqcEvent/ai-coding-work-flow)
 
 面向 AI 辅助研发的工程化工作流，沉淀可复用的协作方式、技能与自动化实践。
 
@@ -28,3 +28,4 @@
 - 打磨可维护、可观测、可交付的企业级应用
 
 > 持续学习，无限进步。
+
