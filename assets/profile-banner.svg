@@ -1,0 +1,69 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">huangqc profile banner</title>
+  <desc id="desc">持续学习，无限进步</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09111F"/>
+      <stop offset="0.55" stop-color="#102947"/>
+      <stop offset="1" stop-color="#173E46"/>
+    </linearGradient>
+    <linearGradient id="line" x1="820" y1="30" x2="1100" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8DE8D2"/>
+      <stop offset="1" stop-color="#B9A7FF"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 55) rotate(125) scale(300 240)">
+      <stop stop-color="#79E7C8" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#79E7C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(270 285) rotate(-32) scale(330 210)">
+      <stop stop-color="#7B8CFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7B8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <clipPath id="card">
+      <rect x="1" y="1" width="1198" height="318" rx="30"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" rx="30" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#glowA)"/>
+    <rect width="1200" height="320" fill="url(#glowB)"/>
+    <path d="M0 250C180 190 325 286 520 224C710 164 850 188 1200 92V320H0V250Z" fill="#FFFFFF" fill-opacity="0.025"/>
+    <g opacity="0.15" stroke="#FFFFFF" stroke-width="1">
+      <path d="M35 62H1165M35 102H1165M35 142H1165M35 182H1165M35 222H1165M35 262H1165"/>
+      <path d="M95 25V295M195 25V295M295 25V295M395 25V295M495 25V295M595 25V295M695 25V295M795 25V295M895 25V295M995 25V295M1095 25V295"/>
+    </g>
+    <circle cx="972" cy="57" r="155" fill="#5CE1C3" fill-opacity="0.08" filter="url(#soft)"/>
+    <circle cx="1120" cy="265" r="150" fill="#A995FF" fill-opacity="0.08" filter="url(#soft)"/>
+
+    <g transform="translate(70 58)">
+      <rect x="0" y="0" width="70" height="6" rx="3" fill="url(#line)"/>
+      <text x="0" y="62" fill="#F7FAFF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="700" letter-spacing="1">HUANG QC</text>
+      <text x="2" y="112" fill="#D7E3F1" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="500">持续学习 · 无限进步</text>
+      <text x="2" y="160" fill="#8EA5BB" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" font-weight="600" letter-spacing="3">INSURTECH  ·  AI WORKFLOWS  ·  DATA PLATFORM</text>
+      <g transform="translate(2 194)">
+        <rect width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+        <text x="56" y="23" text-anchor="middle" fill="#CDE9E1" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">BUILD</text>
+        <rect x="126" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+        <text x="182" y="23" text-anchor="middle" fill="#D8D2FF" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">LEARN</text>
+        <rect x="252" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12"/>
+        <text x="308" y="23" text-anchor="middle" fill="#D9E6F2" font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif" font-size="14" font-weight="600">SHARE</text>
+      </g>
+    </g>
+
+    <g transform="translate(890 57)">
+      <rect width="235" height="235" rx="44" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.12"/>
+      <path d="M58 151L99 108L140 132L184 70" stroke="url(#line)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="58" cy="151" r="12" fill="#7DE5CD"/>
+      <circle cx="99" cy="108" r="12" fill="#A8B7FF"/>
+      <circle cx="140" cy="132" r="12" fill="#C0A9FF"/>
+      <circle cx="184" cy="70" r="12" fill="#F5D9A4"/>
+      <path d="M49 184H187" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round"/>
+      <path d="M49 197H142" stroke="#FFFFFF" stroke-opacity="0.10" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="30" stroke="#FFFFFF" stroke-opacity="0.14"/>
+</svg>
